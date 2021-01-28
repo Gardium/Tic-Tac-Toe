@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-image: url("https://image.freepik.com/free-photo/blackboard-texture_1205-375.jpg?1");
+  background-size: cover;
+  color: #fff;
+  opacity: 0.7;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  /* background-color: beige; */
+  /* border: 1px solid gray; */
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.o {
+  position: relative;
+}
+
+.o:after {
+  position: absolute;
+  content: "\2B55";
+  font-size: 50px;
+  line-height: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.x {
+  position: relative;
+}
+
+.x:after {
+  position: absolute;
+  content: "\274C";
+  font-size: 50px;
+  line-height: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.btn,
+#restart {
+  padding: 24px;
+  margin: 5px;
+  margin-bottom: 20px;
+  color: rgba(109, 109, 109, 0.336);
+  background: url("./—Pngtree—chalk\ mark_814254.png") center no-repeat;
+
+  background-size: 180px;
+
+  border: none;
+  cursor: pointer;
+  color: #181818;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#restart {
+  margin-top: 10px;
+  max-width: 170px;
+  overflow: hidden;
+}
